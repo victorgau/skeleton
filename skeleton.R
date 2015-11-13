@@ -1,5 +1,0 @@
-library(googleVis)
-skeleton <- read.csv("C:/users/victor/dropbox/data/skeleton.csv", header = TRUE)
-Motion=gvisMotionChart(skeleton, idvar="JointType", timevar="Time")
-plot(Motion)
-print(Motion, file="skeleton.html")
